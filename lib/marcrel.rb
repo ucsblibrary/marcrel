@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Marcrel
-  RELATORS =
+  def self.all
     {
       actor:                                 RDF::Vocab::MARCRelators.act,
       adapter:                               RDF::Vocab::MARCRelators.adp,
@@ -112,4 +112,5 @@ module Marcrel
       distributor:                           RDF::Vocab::MARCRelators.dst,
       # publisher:                             RDF::Vocab::MARCRelators.pbl
     }.freeze
+  end
 end
