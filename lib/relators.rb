@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-module Metadata
-  MARCREL =
+module Marcrel
+  RELATORS =
     {
       actor:                                 RDF::Vocab::MARCRelators.act,
       adapter:                               RDF::Vocab::MARCRelators.adp,
