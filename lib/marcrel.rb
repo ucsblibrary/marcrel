@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'rdf/vocab'
+
 module Fields
   MARCREL = {
     actor:                                 RDF::Vocab::MARCRelators.act,

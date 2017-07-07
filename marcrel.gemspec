@@ -14,4 +14,6 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.require_paths = ['lib']
+
+  spec.add_dependency 'rdf-vocab', '>= 2.0'
 end
