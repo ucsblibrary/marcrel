@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
                         'Alex Dunn',
                         'Valerie Maher']
   spec.summary       = 'MARC relator mapping used in UCSB applications'
-  spec.homepage      = 'https://github.com/ucsblibrary/marcrel'
+  spec.homepage      = 'https://github.com/ucsblibrary/metadata-fields'
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.require_paths = ['lib']
