@@ -2,6 +2,7 @@
 
 require 'yaml'
 require 'erb'
+require File.expand_path('../marcrel.rb', __FILE__)
 
 module Fields
   CSV = YAML.safe_load(
